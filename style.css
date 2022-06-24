@@ -1,0 +1,147 @@
+body{
+  background-color: #FFFFFF;
+  padding: 0;
+  margin:0;
+  font-family: 'Roboto', arial;
+}
+.container{
+  background-color: #1f2937;
+  padding:20px 0px;
+}
+.navbar{
+  
+  color: #F9FAF8;
+  padding:20px 0px;
+  display: flex;
+
+}
+.header-logo{
+  font-size: 24px;
+  font-weight: bold;
+  color:#F9FAF8;
+  margin-left:200px;
+
+}
+.link{
+  display:flex;
+  padding:0px 100px;
+  margin-left: auto;
+
+}
+.link a{
+  font-size: 18px;
+  color:#E5E7EB;
+  text-decoration: none;
+  padding: 5px;
+  
+}
+.card{
+  display: flex;
+  margin-left:200px;
+}
+h1{
+  font-size:48px;
+  font-weight: 800;
+  font-family:'Roboto',arial ;
+  color:#F9FAF8;
+}
+
+.card img{
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  margin-left: 400px;
+}
+p{
+  color: #fff;
+
+}
+.sign-up{
+  display: block;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+.content{
+  height:350px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #E5E7EB;
+}
+
+.content img{
+  margin-top:20px;
+  width:350px;
+  height:300px;
+  /* display: flex; */
+  /* justify-content: center;
+  gap: 20px; */
+  border:2px solid #3882f6;
+  border-radius: 20px;
+
+}
+h2{
+  padding-top: 30px;;
+  margin-top:0;
+  font-size:30px;
+  font-weight: 700;
+  font-family:'Roboto',arial ;
+  color:#F9FAF8;
+  text-align: center;
+}
+.review{
+  background-color: lightslategray;
+  height:400px;
+}
+.review p{
+  margin-top: 0px;
+  padding-top: 50px;
+  font-size:20px;
+  font-family:'Roboto',arial ;
+  color:#d8d9d6;
+  text-align: center;
+  font-style: italic;
+}
+.footer{
+  margin-top:0px;
+  background-color: #E5E7EB;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+.footer-card{
+  display: flex;
+  justify-content:space-evenly ;
+  width:700px;
+  height:100px;
+  border: none;
+  background-color: #3882f6;
+  margin-left:700px;
+  border-radius: 30px;
+}
+.footer h4{
+color:#E5E7EB;
+margin-top: 40px;
+}
+.footer button{
+  background-color: #3882f6;
+  border: 1px solid #E5E7EB;
+  color:#E5E7EB;
+  height: 30px;
+  margin-top: 30px;
+  width:80px;
+  border-radius: 10px;;
+}
+.copyright{
+  margin-top: 15px;
+  text-align: center;
+  color:#E5E7EB;
+}
